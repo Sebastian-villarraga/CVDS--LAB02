@@ -127,5 +127,10 @@ Ejemplo: -DjavaVersion=11.
 
 
 - Verifique cómo enviar los parámetros de forma "compuesta" para que el saludo se realice con nombre y apellido.
+  editamos la clase App para que reciba mas parametros y quedo de la siguiente manera:
+  ![{B715BDAC-CE3D-4754-8B2D-FEC543BF051D}](https://github.com/user-attachments/assets/a204fd55-7cc0-4047-9072-2890a272e231)
 
 - Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez!
+
+  ![{86842CFD-8478-49AE-BCB8-51F805FF70D1}](https://github.com/user-attachments/assets/b39c60c8-3560-433f-a7de-3d55eb4ac06f)
+
