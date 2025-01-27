@@ -97,3 +97,9 @@ Ejemplo: -DinteractiveMode=false.
 **9. DjavaVersion:**
 Especifica la versión de Java que se va a utilizar en el proyecto. Este parámetro no es tan común, pero puede ser útil si necesitas configurar la versión de Java de tu proyecto.
 Ejemplo: -DjavaVersion=11.
+
+- Realice el cambio en la clase App.java para crear un saludo personalizado, basado en los parámetros de entrada a la aplicación.
+
+![{8B060016-50AA-448B-92D8-53D60FB1743F}](https://github.com/user-attachments/assets/093b8863-754d-45a2-9c04-d979716bcab0)
+![{BAD2425A-1AFC-4DB2-954D-BDFBA995494B}](https://github.com/user-attachments/assets/40101e64-7a67-4d5d-80d6-b8b61b6d089f)
+
