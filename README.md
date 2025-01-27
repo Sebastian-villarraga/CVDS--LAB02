@@ -122,6 +122,9 @@ Ejemplo: -DjavaVersion=11.
   ![{77451AC7-6467-41DD-A211-95CCBE9CA7B4}](https://github.com/user-attachments/assets/69b2f13e-2d35-4364-a771-995b05017d2a)
 
 - Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?
+  cuando ejecutamos el nombre y el apellido en dos parametros distintos nos arroja el siguiente error:
+  ![{2D6624AF-402A-4A68-9A95-BCFB46320EC6}](https://github.com/user-attachments/assets/cab3fdc2-501b-4779-94e4-e29eeb936a81)
+
 
 - Verifique cómo enviar los parámetros de forma "compuesta" para que el saludo se realice con nombre y apellido.
 
