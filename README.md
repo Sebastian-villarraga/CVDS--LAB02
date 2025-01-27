@@ -100,6 +100,29 @@ Ejemplo: -DjavaVersion=11.
 
 - Realice el cambio en la clase App.java para crear un saludo personalizado, basado en los parámetros de entrada a la aplicación.
 
-![{8B060016-50AA-448B-92D8-53D60FB1743F}](https://github.com/user-attachments/assets/093b8863-754d-45a2-9c04-d979716bcab0)
-![{BAD2425A-1AFC-4DB2-954D-BDFBA995494B}](https://github.com/user-attachments/assets/40101e64-7a67-4d5d-80d6-b8b61b6d089f)
+  ![{8B060016-50AA-448B-92D8-53D60FB1743F}](https://github.com/user-attachments/assets/093b8863-754d-45a2-9c04-d979716bcab0)
+  ![{BAD2425A-1AFC-4DB2-954D-BDFBA995494B}](https://github.com/user-attachments/assets/40101e64-7a67-4d5d-80d6-b8b61b6d089f)
 
+- Utilizar la primera posición del parámetro que llega al método "main" para realizar el saludo personalizado, en caso que no sea posible, se debe mantener el saludo como se encuentra actualmente:
+
+  ![{4DD0F3D2-90F8-4CB7-AF37-D0937F0B8213}](https://github.com/user-attachments/assets/c035912f-25aa-4343-85b9-c8b08b47fdec)
+
+
+- Buscar cómo enviar parámetros al plugin "exec".
+  para enviar parametros al plugin 'exec' usamos el siguiente comando:
+  java -Dexec.args="Mensaje"
+
+- Ejecutar nuevamente la clase desde línea de comandos y verificar la salida: Hello World!
+  
+  ![{FA1FD886-A8B0-4570-B54A-8DA802506295}](https://github.com/user-attachments/assets/a56e2a21-55e1-4712-93e2-068b81618290)
+
+
+- Ejecutar la clase desde línea de comandos enviando su nombre como parámetro y verificar la salida. Ej: Hello Pepito!
+
+  ![{77451AC7-6467-41DD-A211-95CCBE9CA7B4}](https://github.com/user-attachments/assets/69b2f13e-2d35-4364-a771-995b05017d2a)
+
+- Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?
+
+- Verifique cómo enviar los parámetros de forma "compuesta" para que el saludo se realice con nombre y apellido.
+
+- Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez!
