@@ -134,3 +134,76 @@ Ejemplo: -DjavaVersion=11.
 
   ![{86842CFD-8478-49AE-BCB8-51F805FF70D1}](https://github.com/user-attachments/assets/b39c60c8-3560-433f-a7de-3d55eb4ac06f)
 
+## HACER EL ESQUELETO DE LA APLICACIÓN
+- Interfaz:
+  
+![image](https://github.com/user-attachments/assets/04ca7bc9-60df-4bec-a0d7-dd5abe5d1cb7)
+
+- Enumeración:
+  
+![image](https://github.com/user-attachments/assets/d3cb6177-918f-4396-8beb-aac43f430a66)
+
+- Clases:
+
+  - Triangulo
+    
+  ![image](https://github.com/user-attachments/assets/e5d1ff3f-6691-4cb4-a5b7-be732f1ebec9)
+
+  - Hexagono:
+
+  ![image](https://github.com/user-attachments/assets/f4bfa9a9-626c-488f-b397-5e5c5eef3a58)
+
+  - Pentagono:
+
+  ![image](https://github.com/user-attachments/assets/123b9717-e800-4a38-b54e-70fb45f71275)
+
+  - Cuadrilatero
+
+  ![image](https://github.com/user-attachments/assets/bd455727-2a55-4920-9abc-f5b2dff97772)
+
+
+- Metodo main:
+
+![image](https://github.com/user-attachments/assets/5e14f01c-2227-4074-90b4-f03aafde18fe)
+
+- Clase ShapeFactory:
+
+![image](https://github.com/user-attachments/assets/20b8d3ba-81ce-4ec8-88fa-02c5c1d9bd54)
+
+
+Cambiamos la configuración de "pom.xml" para que apunte a la nueva clase main "ShapeMain" y no hacia "App": 
+
+![image](https://github.com/user-attachments/assets/8587f1f8-36c5-4eab-86d0-c8a313fee464)
+
+De esta forma en consola podemos ejecutar el nuevo codigo con el siguiente comando:
+
+![image](https://github.com/user-attachments/assets/83f80439-49f7-4fc8-90c8-2eeb7093eb67)
+
+- Sin parámetros:
+
+![image](https://github.com/user-attachments/assets/29cc27be-9279-4145-9723-c8ce9e66a9a2)
+
+- Parámetro: qwerty:
+
+![image](https://github.com/user-attachments/assets/dee0e021-a990-46c5-8de7-1acf9d07c03a)
+
+- Parámetro pentagon:
+
+![image](https://github.com/user-attachments/assets/2d451976-8338-4b9b-83ca-9857eb1f02f7)
+
+- Parametro Hexagon:
+
+![image](https://github.com/user-attachments/assets/969d1e7a-2147-4a86-8cfa-46a27d0b81bf)
+
+
+# Pille hay ya esta toda la parte de codigo solo es que responda las preguntas ¿Cuál fábrica hiciste? y ¿Cuál es mejor?
+# ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué
+# Y explique que es lo que hace cada clase, interfaz y enum que se creo.
+# Cuando acabe lo sube porfa :)
+
+
+
+
+
+
+
