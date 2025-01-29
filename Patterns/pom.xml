@@ -38,7 +38,7 @@
           </execution>
         </executions>
         <configuration>
-              <mainClass>edu.eci.cvds.patterns.archetype.App</mainClass> <!-- Especifica la clase principal aquí -->
+              <mainClass>edu.eci.cvds.patterns.shapes.ShapeMain</mainClass>
         </configuration>
       </plugin>
     </plugins>
