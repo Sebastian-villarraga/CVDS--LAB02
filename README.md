@@ -1,5 +1,10 @@
 # CVDS-LAB02
 
+## INTEGRANTES
+
+- Sebastian Villarraga
+- Andrés Jacobo Sepúlveda 
+
 ### CREAR UN PROYECTO CON MAVEN
 
 - Buscar cómo se crea un proyecto maven con ayuda de los arquetipos (archetypes).
