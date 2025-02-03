@@ -1,0 +1,19 @@
+ 
+# Maven target folder
+target/
+
+# Compiled class files
+*.class
+
+# IntelliJ IDEA
+.idea/
+
+# Maven directories
+maven-archiver/
+maven-status/
+
+# Surefire reports
+surefire-reports/
+
+# Log files
+*.log
