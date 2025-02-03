@@ -184,6 +184,14 @@ De esta forma en consola podemos ejecutar el nuevo codigo con el siguiente coman
 
 ![image](https://github.com/user-attachments/assets/83f80439-49f7-4fc8-90c8-2eeb7093eb67)
 
+- Analice y asegúrese de entender cada una de las instrucciones que se encuentran en todas las clases que se crearon anteriormente. Cree el archivo ShapeFactory.java en el directorio src/main/java/edu/eci/cvds/patterns/shapes implementando el patrón fábrica (Hint: https://refactoring.guru/design-patterns/catalog), haciendo uso de la instrucción switch-case de Java y usando las enumeraciones.
+
+  ¿Cuál fábrica hiciste? y ¿Cuál es mejor?
+
+  Usamos Factory Method. No existe una fabriba mejor que las otras, va depender del contexto en el que se valla a implementar. La clase ShapeFactory implementa el patrón de diseño Factory Method. Este patrón crear objetos sin especificar la clase exacta del objeto que se va a crear. En esta clase la fábrica crea instancias de las diferentes figuras geométricas según el tipo proporcionado en el argumento RegularShapeType. consideramos que esta era la mejor fabrica para implemetarla en nuestro laboratorio.
+
+El método create recibe un tipo de figura (RegularShapeType) y, dependiendo del valor de este tipo, crea y devuelve una instancia de la clase correspondiente (por ejemplo, un Triangle o un Hexagon). Este patrón proporciona una manera de crear objetos sin depender directamente de las clases concretas, promoviendo la flexibilidad y la escalabilidad en el código.
+
 - Sin parámetros:
 
 ![image](https://github.com/user-attachments/assets/29cc27be-9279-4145-9723-c8ce9e66a9a2)
