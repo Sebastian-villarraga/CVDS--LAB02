@@ -218,12 +218,6 @@ De esta forma en consola podemos ejecutar el nuevo codigo con el siguiente coman
   El parámetro "Hexagon" sí coincide exactamente con uno de los valores (Hexagon). El programa creará una figura de tipo hexágono.
 
 
-# Pille hay ya esta toda la parte de codigo solo es que responda las preguntas ¿Cuál fábrica hiciste? y ¿Cuál es mejor?
-# ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué
-# Y explique que es lo que hace cada clase, interfaz y enum que se creo.
-# Cuando acabe lo sube porfa :)
-
-
 
 
 
