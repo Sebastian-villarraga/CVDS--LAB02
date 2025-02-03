@@ -1,9 +1,9 @@
-package edu.eci.cvds.patterns.shapes;
+package src;
 
-import edu.eci.cvds.patterns.shapes.concrete.Hexagon;
-import edu.eci.cvds.patterns.shapes.concrete.Pentagon;
-import edu.eci.cvds.patterns.shapes.concrete.Quadrilateral;
-import edu.eci.cvds.patterns.shapes.concrete.Triangle;
+import src;
+import src;
+import src;
+import src;
 
 public class ShapeFactory {
     static Shape choosenShape = null;

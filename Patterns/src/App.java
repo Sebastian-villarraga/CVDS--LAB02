@@ -1,4 +1,4 @@
-package edu.eci.cvds.patterns.archetype;
+package src;
 
 /**
  * Hello world!

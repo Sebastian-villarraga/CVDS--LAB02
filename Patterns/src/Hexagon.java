@@ -1,6 +1,6 @@
-package edu.eci.cvds.patterns.shapes.concrete;
+package src;
 
-import edu.eci.cvds.patterns.shapes.Shape;
+import src;
 
 public class Hexagon implements Shape {
     public int getNumberOfEdges() {
