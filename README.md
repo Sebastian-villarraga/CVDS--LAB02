@@ -190,7 +190,7 @@ De esta forma en consola podemos ejecutar el nuevo codigo con el siguiente coman
 
   Usamos Factory Method. No existe una fabriba mejor que las otras, va depender del contexto en el que se valla a implementar. La clase ShapeFactory implementa el patrón de diseño Factory Method. Este patrón crear objetos sin especificar la clase exacta del objeto que se va a crear. En esta clase la fábrica crea instancias de las diferentes figuras geométricas según el tipo proporcionado en el argumento RegularShapeType. consideramos que esta era la mejor fabrica para implemetarla en nuestro laboratorio.
 
-El método create recibe un tipo de figura (RegularShapeType) y, dependiendo del valor de este tipo, crea y devuelve una instancia de la clase correspondiente (por ejemplo, un Triangle o un Hexagon). Este patrón proporciona una manera de crear objetos sin depender directamente de las clases concretas, promoviendo la flexibilidad y la escalabilidad en el código.
+- Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con los siguientes parámetros y verifique la salida en consola para cada una:
 
 - Sin parámetros:
 
