@@ -208,6 +208,15 @@ De esta forma en consola podemos ejecutar el nuevo codigo con el siguiente coman
 
 ![image](https://github.com/user-attachments/assets/969d1e7a-2147-4a86-8cfa-46a27d0b81bf)
 
+- ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
+  Sin parámetros, cuando no se pasa ningún parámetro, el código imprimirá el siguiente mensaje de error: Parameter of type RegularShapeType is required.
+
+  El parámetro "qwerty" no es un valor válido en RegularShapeType, ya que solo tiene los valores Triangle, Quadrilateral, Pentagon, y Hexagon. Esto generará una excepción, y el mensaje de error será: Parameter 'qwerty' is not a valid RegularShapeType
+
+  El parámetro "pentagon" no coincide exactamente con ninguno de los valores, ya que el valor definido es "Pentagon" (con mayúscula inicial). Debido a esta diferencia, el programa lanzará una excepción, y el mensaje de error será: Parameter 'pentagon' is not a valid RegularShapeType
+
+  El parámetro "Hexagon" sí coincide exactamente con uno de los valores (Hexagon). El programa creará una figura de tipo hexágono.
+
 
 # Pille hay ya esta toda la parte de codigo solo es que responda las preguntas ¿Cuál fábrica hiciste? y ¿Cuál es mejor?
 # ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué
