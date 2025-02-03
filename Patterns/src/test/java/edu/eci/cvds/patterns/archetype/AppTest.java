@@ -1,4 +1,4 @@
-package src;
+package edu.eci.cvds.patterns.archetype;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
