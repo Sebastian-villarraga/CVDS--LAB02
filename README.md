@@ -184,6 +184,14 @@ De esta forma en consola podemos ejecutar el nuevo codigo con el siguiente coman
 
 ![image](https://github.com/user-attachments/assets/83f80439-49f7-4fc8-90c8-2eeb7093eb67)
 
+- Analice y asegúrese de entender cada una de las instrucciones que se encuentran en todas las clases que se crearon anteriormente. Cree el archivo ShapeFactory.java en el directorio src/main/java/edu/eci/cvds/patterns/shapes implementando el patrón fábrica (Hint: https://refactoring.guru/design-patterns/catalog), haciendo uso de la instrucción switch-case de Java y usando las enumeraciones.
+
+  ¿Cuál fábrica hiciste? y ¿Cuál es mejor?
+
+  Usamos Factory Method. No existe una fabriba mejor que las otras, va depender del contexto en el que se valla a implementar. La clase ShapeFactory implementa el patrón de diseño Factory Method. Este patrón crear objetos sin especificar la clase exacta del objeto que se va a crear. En esta clase la fábrica crea instancias de las diferentes figuras geométricas según el tipo proporcionado en el argumento RegularShapeType. consideramos que esta era la mejor fabrica para implemetarla en nuestro laboratorio.
+
+- Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con los siguientes parámetros y verifique la salida en consola para cada una:
+
 - Sin parámetros:
 
 ![image](https://github.com/user-attachments/assets/29cc27be-9279-4145-9723-c8ce9e66a9a2)
@@ -199,6 +207,15 @@ De esta forma en consola podemos ejecutar el nuevo codigo con el siguiente coman
 - Parametro Hexagon:
 
 ![image](https://github.com/user-attachments/assets/969d1e7a-2147-4a86-8cfa-46a27d0b81bf)
+
+- ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
+  Sin parámetros, cuando no se pasa ningún parámetro, el código imprimirá el siguiente mensaje de error: Parameter of type RegularShapeType is required.
+
+  El parámetro "qwerty" no es un valor válido en RegularShapeType, ya que solo tiene los valores Triangle, Quadrilateral, Pentagon, y Hexagon. Esto generará una excepción, y el mensaje de error será: Parameter 'qwerty' is not a valid RegularShapeType
+
+  El parámetro "pentagon" no coincide exactamente con ninguno de los valores, ya que el valor definido es "Pentagon" (con mayúscula inicial). Debido a esta diferencia, el programa lanzará una excepción, y el mensaje de error será: Parameter 'pentagon' is not a valid RegularShapeType
+
+  El parámetro "Hexagon" sí coincide exactamente con uno de los valores (Hexagon). El programa creará una figura de tipo hexágono.
 
 
 # Pille hay ya esta toda la parte de codigo solo es que responda las preguntas ¿Cuál fábrica hiciste? y ¿Cuál es mejor?
